@@ -1,0 +1,8 @@
+2025-04-17 18:46:10,876 - ERROR - Report generation failed: 'severity'
+Traceback (most recent call last):
+  File "/storage/emulated/0/Documents/pentest/user/scanner.py", line 233, in run_scan
+    Reporter(self).generate_report()
+  File "/storage/emulated/0/Documents/pentest/user/core/reporter.py", line 30, in generate_report
+    print(Fore.RED + f"[{vuln['severity'].upper()}] {vuln['type']}")
+                         ~~~~^^^^^^^^^^^^
+KeyError: 'severity'
