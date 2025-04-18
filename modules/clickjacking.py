@@ -1,5 +1,6 @@
 from core.base import VulnCheck
 from colorama import Fore
+from urllib.parse import urljoin  # Added missing import
 
 class ClickjackingCheck(VulnCheck):
     def run(self):
