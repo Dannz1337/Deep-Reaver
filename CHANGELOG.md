@@ -4,6 +4,20 @@ Semua perubahan penting pada proyek ini didokumentasikan di bawah ini.
 
 ---
 
+## [1.0.1] - 2025-04-18
+
+### Update Modul Keamanan
+- Peningkatan signifikan pada modul:
+  - `auth_bypass.py`
+  - `brute_force.py`
+  - `clickjacking.py`
+- Menambahkan metode pendeteksian baru untuk hasil yang lebih akurat.
+- Refactor besar dengan peningkatan efisiensi dan keterbacaan kode.
+- 178 baris kode ditambahkan, 63 baris dihapus.
+- Siap untuk integrasi fitur lanjutan ke depannya.
+
+---
+
 ## [1.0.0] - 2025-04-17
 
 ### Rilis Stabil
