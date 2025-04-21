@@ -6,3 +6,27 @@ Traceback (most recent call last):
     print(Fore.RED + f"[{vuln['severity'].upper()}] {vuln['type']}")
                          ~~~~^^^^^^^^^^^^
 KeyError: 'severity'
+2025-04-18 13:43:46,638 - ERROR - Error in ClickjackingCheck: name 'urljoin' is not defined
+Traceback (most recent call last):
+  File "/storage/emulated/0/Documents/pentest/user/scanner.py", line 213, in run_scan
+    check.run()
+  File "/storage/emulated/0/Documents/pentest/user/modules/clickjacking.py", line 11, in run
+    urljoin(self.scanner.base_url, "/account"),
+    ^^^^^^^
+NameError: name 'urljoin' is not defined
+2025-04-18 13:54:57,989 - ERROR - Error in ClickjackingCheck: name 'urljoin' is not defined
+Traceback (most recent call last):
+  File "/storage/emulated/0/Documents/pentest/user/scanner.py", line 213, in run_scan
+    check.run()
+  File "/storage/emulated/0/Documents/pentest/user/modules/clickjacking.py", line 11, in run
+    urljoin(self.scanner.base_url, "/account"),
+    ^^^^^^^
+NameError: name 'urljoin' is not defined
+2025-04-18 14:27:17,976 - ERROR - Error in ClickjackingCheck: name 'urljoin' is not defined
+Traceback (most recent call last):
+  File "/storage/emulated/0/Documents/pentest/user/scanner.py", line 213, in run_scan
+    check.run()
+  File "/storage/emulated/0/Documents/pentest/user/modules/clickjacking.py", line 11, in run
+    urljoin(self.scanner.base_url, "/account"),
+    ^^^^^^^
+NameError: name 'urljoin' is not defined
