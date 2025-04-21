@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://raw.githubusercontent.com/Dannz1337/Deep-Reaver/main/assets/logo.png" width="300"/>
+  <img src="https://raw.githubusercontent.com/Dannz1337/Deep-Reaver/main/assets/deep.gif" width="300"/>
 </p>
 
 <p align="center">
@@ -10,8 +10,7 @@
 
 # Deep Reaver
 
-**Deep Reaver** is a powerful, AI-enhanced vulnerability assessment and exploitation toolkit built in Python.  
-Inspired by tools like Nmap and Nessus, Deep Reaver is designed for deep, modular scanning of web applications and services.
+**Deep Reaver** is a powerful, AI-enhanced vulnerability assessment and exploitation toolkit built in Python. Inspired by tools like Nmap and Nessus, Deep Reaver is designed for deep, modular scanning of web applications and services.
 
 ---
 
@@ -39,3 +38,4 @@ Inspired by tools like Nmap and Nessus, Deep Reaver is designed for deep, modula
 git clone https://github.com/Dannz1337/Deep-Reaver.git
 cd Deep-Reaver/user
 pip install -r requirements.txt
+```
